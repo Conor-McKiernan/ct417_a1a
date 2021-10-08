@@ -3,11 +3,11 @@ import java.util.List;
 
 public class Module {
     private String moduleName;
-    private int moduleId;
+    private String moduleId;
     private List<Student> studentList;
     private List<Course> courseList;
 
-    public Module(String moduleName, int moduleId){
+    public Module(String moduleName, String moduleId){
         this.moduleName = moduleName;
         this.moduleId = moduleId;
         studentList = new ArrayList<Student>();
@@ -22,11 +22,11 @@ public class Module {
         this.moduleName = moduleName;
     }
 
-    public int getModuleId() {
+    public String getModuleId() {
         return moduleId;
     }
 
-    public void setModuleId(int moduleId) {
+    public void setModuleId(String moduleId) {
         this.moduleId = moduleId;
     }
 
@@ -44,5 +44,14 @@ public class Module {
 
     public void setCourseList(List<Course> courseList) {
         this.courseList = courseList;
+    }
+
+    public void addStudent(Student s){
+        studentList.add(s);
+    }
+
+    @Override
+    public String toString() {
+        return moduleName;
     }
 }
