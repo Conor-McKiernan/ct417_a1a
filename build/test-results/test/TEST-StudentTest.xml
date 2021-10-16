@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StudentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-08T13:46:03" hostname="Conors-MacBook-Pro.local" time="0.001">
+<testsuite name="StudentTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-10-17T13:23:24" hostname="Conors-MacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="calculateUsername" classname="StudentTest" time="0.001"/>
+  <testcase name="createStudent" classname="StudentTest" time="0.001"/>
+  <testcase name="setListsForCourse" classname="StudentTest" time="0.0"/>
+  <testcase name="setListsForModule" classname="StudentTest" time="0.0"/>
+  <testcase name="createCourse" classname="StudentTest" time="0.001"/>
+  <testcase name="setListsForStudent" classname="StudentTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

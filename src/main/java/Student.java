@@ -80,8 +80,4 @@ public class Student {
     public void setModuleList(List<Module> moduleList) {
         this.moduleList = moduleList;
     }
-
-    public void addCourse(Course c){
-        courseList.add(c);
-    }
 }

@@ -58,14 +58,6 @@ public class Course {
         this.endDate = endDate;
     }
 
-    public void addStudent(Student s){
-        studentList.add(s);
-    }
-
-    public void addModule(Module m){
-        moduleList.add(m);
-    }
-
     @Override
     public String toString() {
         return courseName;

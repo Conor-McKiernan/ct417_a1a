@@ -46,10 +46,6 @@ public class Module {
         this.courseList = courseList;
     }
 
-    public void addStudent(Student s){
-        studentList.add(s);
-    }
-
     @Override
     public String toString() {
         return moduleName;
